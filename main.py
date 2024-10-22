@@ -25,7 +25,7 @@ for i in range(0,20):
    if i not in unique:
     unique.append(i)
 #проверка суммы
-    if sum(i)>number:
+    if sum(i)<number:
      counter+=1
 #вывод результатов
 print(f"уникальные значения {tuple(unique)}")
