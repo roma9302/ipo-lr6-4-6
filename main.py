@@ -19,14 +19,14 @@ number=int(input("Введите число"))
 
 #генератор комбинаций
 for i in range(0,20):
- list1=[random.randint(-10,10) for x  in range(4)]
- list2.append(list1)
- for i in list2:
-   if i not in unique:
-    unique.append(i)
+    list1=[random.randint(-10,10) for x  in range(4)]
+    list2.append(list1)
+for i in list2:
+    if i not in unique:
+        unique.append(i)
 #проверка суммы
-    if sum(i)<number:
+if sum(i)<number:
      counter+=1
 #вывод результатов
 print(f"уникальные значения {tuple(unique)}")
-print(f"счетчик комбинаций,чья сумма меньше,чем число пользователя {counter}")
+print(f"счетчик комбинаций,чья сумма меньше,чем число пользователя {counter}"
