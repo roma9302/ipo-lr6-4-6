@@ -25,8 +25,8 @@ for i in list2:
     if i not in unique:
         unique.append(i)
 #проверка суммы
-if sum(i)<number:
-     counter+=1
+    if sum(i)<number:
+        counter+=1
 #вывод результатов
 print(f"уникальные значения {tuple(unique)}")
 print(f"счетчик комбинаций,чья сумма меньше,чем число пользователя {counter}"
